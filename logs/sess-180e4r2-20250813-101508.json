@@ -1,0 +1,25 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "headache"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear you're experiencing a headache. Can you tell me more about the nature of your headache? Is it constant or occasional? Does it affect one side of your head, or is it all-over?"
+    }
+  ],
+  "structured": {
+    "chief_complaint": "headache",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1755060308.439211
+}

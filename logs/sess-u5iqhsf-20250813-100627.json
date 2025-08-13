@@ -1,0 +1,25 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello there! How can I assist you today? If you could describe any symptoms or concerns you're experiencing, that would help me better understand how to support you."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1755059787.4197903
+}

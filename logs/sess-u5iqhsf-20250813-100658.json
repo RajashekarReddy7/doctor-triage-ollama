@@ -1,0 +1,33 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello there! How can I assist you today? If you could describe any symptoms or concerns you're experiencing, that would help me better understand how to support you."
+    },
+    {
+      "role": "user",
+      "content": "i'm suffering from headache"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear about your headache. Can you tell me more about it? How long has it been going on and do you experience any other symptoms like nausea, vomiting, vision changes, or difficulty speaking? This information can help me determine the best course of action for you."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "headache",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1755059818.3682537
+}

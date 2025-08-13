@@ -1,0 +1,29 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "chest pain"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear you're experiencing chest pain. Can you tell me more about the pain such as where exactly it is located, how long it has been happening, and if there are any other symptoms accompanying it? It's important for me to understand these details to help determine the cause and severity of your symptoms. If the pain is severe or accompanied by shortness of breath, sweating, or feeling lightheaded, please seek immediate medical attention."
+    },
+    {
+      "role": "assistant",
+      "content": "If you are experiencing severe chest pain accompanied by shortness of breath, sweating, or feeling lightheaded, please seek immediate medical attention at your nearest emergency department. This situation requires urgent care. If symptoms are less severe, it would be beneficial to describe the location, severity, and duration of the pain, as well as any accompanying symptoms, so I can help determine the next appropriate steps for you."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "chest pain",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Emergency",
+    "reason": "detected: 'chest pain'."
+  },
+  "ts": 1755060159.1932685
+}

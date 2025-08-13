@@ -1,0 +1,49 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": " Hello there! I'm glad you reached out. How can I assist you today? I'm here to listen and help as best I can. Could you please tell me more about what's been going on with your health recently? Are there any specific symptoms or concerns that have been bothering you? It would be helpful if we could discuss the timing, severity, and any red flags you might have noticed. If it helps, feel free to describe the symptoms in as much detail as possible so I can better understand how they're affecting you."
+    },
+    {
+      "role": "user",
+      "content": "iam suffering from headache"
+    },
+    {
+      "role": "assistant",
+      "content": " I'm really sorry to hear that you've been experiencing a headache. To help me provide the best advice, could you please tell me more about your headache? For instance, is it a continuous or intermittent headache? Does it occur on one side of your head or all over? Do you feel any specific pain intensity, from mild to severe? Also, have you noticed any other symptoms accompanying the headache like nausea, vomiting, vision changes, speech difficulties, or weakness in any part of your body? This information will help me understand better and provide guidance on what could be causing it."
+    },
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": " I'm here for you! It seems we may have missed some details about your headache earlier. To give a clearer picture, could you please share if the headache is persistent or comes and goes? Is there a specific pattern to when it happens, such as at certain times of the day or after performing certain activities? Also, how long have you been experiencing this headache? I'm particularly interested in knowing whether it started suddenly or has been present for some time. Have you noticed any red flags, like severe pain, vision changes, loss of balance, difficulty speaking, or weakness on one side of your body? This information will help me provide more targeted advice."
+    },
+    {
+      "role": "user",
+      "content": "look i have severe loose motions wt to do"
+    },
+    {
+      "role": "assistant",
+      "content": " I'm sorry to hear that you're dealing with severe loose stools. To better understand and advise you, it would be helpful if we could discuss a few more details about your symptoms. Could you please tell me the frequency of these loose stools? Are they occurring multiple times a day or just once in a while? Also, have you noticed any blood in your stool, abdominal pain, fever, or weight loss? These symptoms can provide clues as to what may be causing the loose stools. Additionally, it's important to know if there are any pre-existing medical conditions, such as inflammatory bowel disease or a history of food poisoning, that could contribute to this issue. This information will help me guide you on appropriate next steps."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "user: hey hi\nassistant:  Hello there! I'm glad you reached out. How can I assist you today? I'm here to listen and help ",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1754976553.0389996
+}

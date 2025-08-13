@@ -1,0 +1,51 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? Is there something specific you'd like to discuss about your health? I'm here to help."
+    },
+    {
+      "role": "user",
+      "content": "iam suffering from headache"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear that you're experiencing a headache. Can you tell me more about it, such as its location, severity, duration, and if there are any associated symptoms like nausea or vision changes? This information can help me better understand what might be causing your discomfort."
+    },
+    {
+      "role": "user",
+      "content": "forehead,medium pain,1 day"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for sharing that. A medium-intensity headache on your forehead for a day isn't typically an emergency, but it's still concerning. Have you noticed any triggers or relief with medication? Are there any other symptoms like nausea, vomiting, light sensitivity, or changes in vision?"
+    },
+    {
+      "role": "user",
+      "content": "light sensitivity"
+    },
+    {
+      "role": "assistant",
+      "content": "I see that your headache is located on the forehead and is accompanied by light sensitivity. This could suggest a tension-type headache or migraine. It's important to try to identify any triggers, such as stress, poor sleep, or specific foods. Have you taken any medication for this headache and has it provided relief?"
+    }
+  ],
+  "structured": {
+    "chief_complaint": "headache",
+    "onset": "1 day",
+    "severity": "medium",
+    "associated_symptoms": [
+      "light sensitivity"
+    ],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1755059452.7265577
+}

@@ -1,0 +1,25 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": " Hello! I'm glad you reached out today. How can I assist you? Let's start by discussing what symptoms or concerns you are experiencing. It would be helpful if you could tell me about the problem, its severity, when it started, and any unusual or concerning aspects that have occurred. This will help me understand your situation better. If you have any questions or need advice on anything else related to your health, please feel free to share as well."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1754973588.0078077
+}

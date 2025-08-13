@@ -1,0 +1,47 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello there! How can I assist you today? If you could describe any symptoms or concerns you're experiencing, that would help me better understand how to support you."
+    },
+    {
+      "role": "user",
+      "content": "i'm suffering from headache"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear about your headache. Can you tell me more about it? How long has it been going on and do you experience any other symptoms like nausea, vomiting, vision changes, or difficulty speaking? This information can help me determine the best course of action for you."
+    },
+    {
+      "role": "user",
+      "content": "chest pain"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear about your chest pain. Can you describe it more? Is it a sharp, dull, or burning sensation? Does it come and go, or is it constant?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm concerned about your chest pain. It's important that you seek immediate medical attention at the nearest emergency department due to the red flag symptoms. Please don't delay in seeking help. If you're having trouble, someone can drive you or call an ambulance."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "headache",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [
+      "chest pain"
+    ],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Emergency",
+    "reason": "Red flag detected: 'chest pain'."
+  },
+  "ts": 1755059879.7072396
+}

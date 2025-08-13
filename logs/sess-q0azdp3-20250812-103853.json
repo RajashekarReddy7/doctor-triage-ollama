@@ -1,0 +1,25 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": " Hello! I'm glad to assist you today. How can I help you feel better? Are you experiencing any specific symptoms or concerns that have been bothering you lately? If you could tell me a bit more about what's going on, it might help me provide some guidance or suggestions for you.\n\nPlease remember that I'm here to support and help, but I am an AI model and not a real doctor. My advice is meant to be informative and encouraging, but it should never replace professional medical care. If your symptoms are severe, persist, or concern you, please seek the help of a healthcare provider as soon as possible.\n\nNow, let's see if you can share some more details about what's been going on with your health recently."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1754975333.6137543
+}

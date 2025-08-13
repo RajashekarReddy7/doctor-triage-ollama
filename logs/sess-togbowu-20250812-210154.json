@@ -1,0 +1,25 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": " Hello there! I'm glad we can connect. Can you tell me how I can assist you today? Are you feeling well, or is there something specific that's been concerning you lately? Remember, I'm here to listen and help in any way I can. No question is too small or too big.\n\nIf you could please provide more details about what you're experiencing, it would help me better understand your situation. For example:\n\n1. How long have you been feeling this way?\n2. Have you noticed any patterns or triggers related to your symptoms?\n3. Are there any specific areas where you are experiencing discomfort or pain?\n4. How severe are the symptoms on a scale of 1-10, with 10 being the most severe?\n5. Have you experienced any red flags such as chest pain, shortness of breath, dizziness, or unexplained weight loss?\n\nIt's important to remember that I can't provide a definitive diagnosis, but by understanding your symptoms, severity, timing, and any red flags, we can work together to determine the next steps. If necessary, I will recommend seeking further medical advice from a healthcare professional in person or through telemedicine.\n\nIn the meantime, if you have any questions or concerns, feel free to share them with me, and I'll do my best to help!\n\nIs there anything specific that you would like to discuss today?"
+    }
+  ],
+  "structured": {
+    "chief_complaint": "",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1755012714.744116
+}

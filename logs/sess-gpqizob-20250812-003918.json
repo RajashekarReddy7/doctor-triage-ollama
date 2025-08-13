@@ -1,0 +1,33 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": " Hello there! I hope you're doing okay. How can I assist you today? If you could tell me what seems to be the problem or if something is bothering you, that would help me provide the best advice. It's important to remember that while I aim to help, I am an AI and not a replacement for professional medical advice. Let's take things one step at a time. What can I help you with today?"
+    },
+    {
+      "role": "user",
+      "content": "i have stomach pain"
+    },
+    {
+      "role": "assistant",
+      "content": " I'm really sorry to hear that you're experiencing stomach pain. Can you please tell me more about your symptoms? For example, when did the pain start? Is it constant or does it come and go? Does it feel sharp or dull? Do you notice any other symptoms accompanying the pain like nausea, vomiting, or changes in bowel movements? Also, have you noticed any patterns or triggers for the pain? This information will help me understand your condition better. Remember, I'm here to help and support you, but it's crucial that you seek professional medical attention if your symptoms persist or worsen."
+    }
+  ],
+  "structured": {
+    "chief_complaint": "stomach pain",
+    "onset": "Not specified",
+    "severity": "Not specified",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1754939358.544381
+}

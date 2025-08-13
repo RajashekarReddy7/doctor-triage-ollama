@@ -1,0 +1,33 @@
+{
+  "session": [
+    {
+      "role": "user",
+      "content": "hey hi"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? If you're feeling unwell, let's start by discussing your symptoms in detail. Could you please describe what you've been experiencing and for how long?"
+    },
+    {
+      "role": "user",
+      "content": "iam suffering from throat pain"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear that you're having throat pain. Can you tell me if it's a constant or intermittent discomfort, and if there are any other symptoms accompanying it such as difficulty swallowing, fever, or cough? Also, when did the pain start and have you noticed any improvements or worsening over time?"
+    }
+  ],
+  "structured": {
+    "chief_complaint": "throat pain",
+    "onset": "",
+    "severity": "",
+    "associated_symptoms": [],
+    "risk_factors": [],
+    "vitals": {}
+  },
+  "triage": {
+    "level": "Routine",
+    "reason": "No red flags found; symptoms appear non-urgent."
+  },
+  "ts": 1755020196.2674885
+}
