@@ -317,7 +317,10 @@
       <p>Your trusted virtual healthcare assistant.<br/>Ask me anything about your symptoms.</p>
     </div>
     <div class="chat-section" aria-live="polite">
-      <header><span class="icon">🩺</span> Care Companion</header>
+      <header><span class="icon">🩺</span> Care Companion
+      <button id="logout" style="margin-left:auto; background:#e63946; color:white; border:none; padding:6px 12px; border-radius:8px; cursor:pointer;">
+        Logout
+      </button></header>
       <div id="chat" role="log" aria-live="polite" aria-atomic="false"></div>
       <div id="typing" aria-label="Typing indicator">
         <div class="typing-dots">
@@ -403,6 +406,11 @@
     document.getElementById('input').addEventListener('keypress', e => {
       if (e.key === 'Enter') sendMessage();
     });
+
+    document.getElementById('logout').onclick = () => {
+    localStorage.removeItem('token');  // remove JWT token
+    window.location.href = '/'; // redirect to login
+    };
   </script>
 </body>
 </html>
