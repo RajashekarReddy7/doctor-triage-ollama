@@ -3,3 +3,8 @@ uvicorn
 python-dotenv
 requests
 pydantic
+fastapi
+uvicorn[standard]
+pymongo
+python-jose[cryptography]
+passlib[bcrypt]

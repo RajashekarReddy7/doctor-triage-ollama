@@ -334,6 +334,10 @@
   </div>
 
   <script>
+    const token = localStorage.getItem("token");
+    if (!token) {
+      window.location.href = "login.html";
+    }
     const sessionId = 'sess-' + Math.random().toString(36).slice(2,9);
     const chat = document.getElementById('chat');
     const typingIndicator = document.getElementById('typing');
@@ -364,9 +368,19 @@
       typingIndicator.style.display = 'block';
 
       try {
+        const token = localStorage.getItem("token");
+        if (!token) {
+          alert("Session expired. Please log in again.");
+          window.location.href = "/";
+          return;
+        }
+        
         const res = await fetch('/api/chat', {
           method: 'POST',
-          headers: {'Content-Type':'application/json'},
+          headers: {
+            'Content-Type':'application/json',
+            'Authorization': `Bearer ${token}`
+          },
           body: JSON.stringify({session_id: sessionId, message: msg})
         });
         const data = await res.json();
