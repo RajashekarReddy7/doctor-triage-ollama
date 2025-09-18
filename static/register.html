@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Register - AI CareBot</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="info">
+      <h1>Create Your Account</h1>
+      <p>Join AI CareBot and get instant, 24/7 healthcare assistance.</p>
+    </div>
+
+    <div class="login-box">
+      <div class="logo">
+        <!-- Reuse same SVG -->
+      </div>
+      <h2>Register</h2>
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="password" placeholder="Password" />
+      <button onclick="register()">Register</button>
+      <div class="toggle"><a href="login.html">Already have an account? Login</a></div>
+    </div>
+  </div>
+
+  <script>
+    async function register() {
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      if (!email || !password) { alert("Please fill all fields"); return; }
+
+      try {
+        const res = await fetch("/register", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ email, password })
+        });
+
+        if (res.ok) {
+          alert("Registered successfully, please login.");
+          window.location.href = "login.html";
+        } else {
+          const err = await res.json();
+          alert(err.detail);
+        }
+      } catch (e) {
+        alert("Error: " + e.message);
+      }
+    }
+
+    // Smooth transition navigation
+    document.querySelector(".toggle a").addEventListener("click", function (e) {
+      e.preventDefault();
+      const box = document.querySelector('.login-box');
+      box.style.opacity = "0";
+      box.style.transform = "translateY(20px)";
+      setTimeout(() => { window.location.href = this.getAttribute("href"); }, 300);
+    });
+  </script>
+</body>
+</html>
